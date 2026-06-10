@@ -100,6 +100,8 @@ numero = 0
 #Mientras no acierte
 while numero != numero_secreto:
     numero = int(input("Adivina el número secreto: "))
+    if numero != numero_secreto:
+        print("No has acertado, prueba de nuevo")
 
 print("¡Has acertado!")
 
