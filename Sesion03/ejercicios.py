@@ -4,7 +4,7 @@ edad = int(input("Introduce tu edad: "))
 
 #Mostramos los años cumplidos
 for anio in range(1, edad +1):
-    print(anio)
+    print("Has cumplido" ,anio ,"años")
 
 print("------------------------------------------")
 
@@ -18,3 +18,4 @@ for impar in range(1, numero +1, 2):
 
 print("------------------------------------------------")
 
+ss
